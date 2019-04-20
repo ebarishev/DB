@@ -21,3 +21,12 @@ $RECYCLE.BIN/
 # =========================
 # Operating System Files
 # =========================
+
+
+
+*.publish.sql
+obj/
+bin/
+DeploymentReport*.txt
+*.jfm
+*.dbmdl

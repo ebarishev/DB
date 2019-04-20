@@ -1,0 +1,3 @@
+﻿ALTER TABLE [dbo].[Title]
+	ADD CONSTRAINT [PK_Title]
+	PRIMARY KEY CLUSTERED ([Id])

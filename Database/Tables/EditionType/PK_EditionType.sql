@@ -1,0 +1,3 @@
+﻿ALTER TABLE [dbo].[EditionType]
+	ADD CONSTRAINT [PK_EditionType]
+	PRIMARY KEY CLUSTERED ([Id])

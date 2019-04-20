@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>Database</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{b3a5e646-659a-4b9b-959c-6cf9e27ea2e1}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql140DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <RootNamespace>Database</RootNamespace>
+    <AssemblyName>Database</AssemblyName>
+    <ModelCollation>1033, CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+    <GenerateCreateScript>True</GenerateCreateScript>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="Tables" />
+    <Folder Include="Tables\Person" />
+    <Folder Include="Tables\Title" />
+    <Folder Include="Tables\Publisher" />
+    <Folder Include="Tables\TitlePerson" />
+    <Folder Include="Views" />
+    <Folder Include="Tables\EditionType" />
+    <Folder Include="Data" />
+    <Folder Include="Tables\TitleTag" />
+    <Folder Include="Tables\Tag" />
+    <Folder Include="Tables\PersonRole" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Tables\Person\Person.sql" />
+    <Build Include="Tables\Person\PK_Person.sql" />
+    <Build Include="Tables\Title\Title.sql" />
+    <Build Include="Tables\Title\PK_Title.sql" />
+    <Build Include="Tables\TitlePerson\TitlePerson.sql" />
+    <Build Include="Tables\Publisher\Publisher.sql" />
+    <Build Include="Tables\Publisher\PK_Publisher.sql" />
+    <Build Include="Tables\TitlePerson\PK_TitlePerson.sql" />
+    <Build Include="Tables\TitlePerson\FK_TitlePerson_Person.sql" />
+    <Build Include="Tables\TitlePerson\FK_TitlePerson_Title.sql" />
+    <Build Include="Tables\Title\FK_Publisher.sql" />
+    <Build Include="Views\VI_TitlePerson.sql" />
+    <Build Include="Tables\EditionType\PK_EditionType.sql" />
+    <Build Include="Tables\EditionType\EditionType.sql" />
+    <Build Include="Tables\Title\FK_EditionType.sql" />
+    <Build Include="Views\VI_TitleAuthor.sql" />
+    <Build Include="Data\EditionType_Data.sql" />
+    <Build Include="Data\Person_Data.sql" />
+    <Build Include="Data\Tag_Data.sql" />
+    <Build Include="Data\TitleTag_Data.sql" />
+    <Build Include="Tables\TitleTag\FK_TitleTag_Tag.sql" />
+    <Build Include="Tables\TitleTag\FK_TitleTag_Title.sql" />
+    <Build Include="Tables\TitleTag\PK_TitleTag.sql" />
+    <Build Include="Tables\TitleTag\TitleTag.sql" />
+    <Build Include="Tables\Tag\Tag.sql" />
+    <Build Include="Tables\Tag\PK_Tag.sql" />
+    <Build Include="Views\VI_TitleTag.sql" />
+    <Build Include="Data\PersonRole_Data.sql" />
+    <Build Include="Tables\TitlePerson\FK_TitlePerson_PersonRole.sql" />
+    <Build Include="Tables\PersonRole\PK_PersonRole.sql" />
+    <Build Include="Tables\PersonRole\PersonRole.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Script.PostDeployment.Data.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Data\Publisher_Data.sql" />
+    <Build Include="Data\Title_Data.sql" />
+    <Build Include="Data\TitlePerson_Data.sql" />
+  </ItemGroup>
+</Project>

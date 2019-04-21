@@ -21,6 +21,7 @@ AS
 			, (9, 32, NULL)
 			, (10, 34, NULL)
 			, (11, 38, NULL)
+			, (4, 42, N'Выпуск 9')
 	) 
 	AS Source (
 		[TagId], 

@@ -1,12 +1,15 @@
 ﻿CREATE PROCEDURE [dbo].[PersonRole_Data]
 AS
 	MERGE INTO [dbo].[PersonRole] AS Target 
-	USING (VALUES 
+	USING (
+		VALUES 
 		  ('A', N'Автор')
 		, ('T', N'Переводчик')
 		, ('TE', N'Редактор перевода')
 		, ('R', N'Рецензент')
 		, ('UE', N'Под редакцией')
+		, ('DR', N'Чертежи')
+		, ('DRP', N'Чертежи при участии')
 	) 
 	AS Source ([Id], [Name]) 
 	ON Target.[Id] = Source.[Id] 

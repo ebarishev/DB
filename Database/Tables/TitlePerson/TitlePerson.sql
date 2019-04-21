@@ -2,6 +2,6 @@
 (
 	[PersonId] INT NOT NULL, 
 	[TitleId] INT NOT NULL, 
-	[PersonRoleId] CHAR(2) NOT NULL,
+	[PersonRoleId] CHAR(5) NOT NULL,
 	[PersonOrder] TINYINT NULL
 )

@@ -47,6 +47,7 @@ AS
 			, (182, 40, 'A', 1), (121, 40, 'T', 1)
 			, (9, 41, 'A', 1)
 			, (10, 42, 'A', 1)
+			, (108, 43, 'A', 1), (11, 43, 'DR', 1), (12, 43, 'DRP', 1), (13, 43, 'DRP', 2), (14, 43, 'DRP', 3)
 	) 
 	AS Source ([PersonId], [TitleId], [PersonRoleId], [PersonOrder]) 
 	ON Target.[PersonId] = Source.[PersonId] AND Target.[TitleId] = Source.[TitleId] AND Target.[PersonRoleId] = Source.[PersonRoleId]

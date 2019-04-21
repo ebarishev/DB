@@ -49,6 +49,10 @@ AS
 			, (10, 42, 'A', 1)
 			, (108, 43, 'A', 1), (11, 43, 'DR', 1), (12, 43, 'DRP', 1), (13, 43, 'DRP', 2), (14, 43, 'DRP', 3)
 			, (184, 44, 'A', 1)
+			, (15, 45, 'A', 1)
+			, (185, 46, 'A', 1), (186, 46, 'A', 2), (187, 46, 'R', 1)
+			, (188, 47, 'A', 1), (189, 47, 'A', 2)
+			, (190, 48, 'A', 1), (191, 48, 'A', 2), (192, 43, 'T', 1), (193, 43, 'UE&S', 1), (194, 43, 'UE&S', 2)
 	) 
 	AS Source ([PersonId], [TitleId], [PersonRoleId], [PersonOrder]) 
 	ON Target.[PersonId] = Source.[PersonId] AND Target.[TitleId] = Source.[TitleId] AND Target.[PersonRoleId] = Source.[PersonRoleId]

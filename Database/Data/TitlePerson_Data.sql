@@ -53,6 +53,13 @@ AS
 			, (185, 46, 'A', 1), (186, 46, 'A', 2), (187, 46, 'R', 1)
 			, (188, 47, 'A', 1), (189, 47, 'A', 2)
 			, (190, 48, 'A', 1), (191, 48, 'A', 2), (192, 43, 'T', 1), (193, 43, 'UE&S', 1), (194, 43, 'UE&S', 2)
+			, (195, 49, 'UCE', 1)
+			, (196, 50, 'A', 1), (197, 50, 'A', 2)
+			, (198, 51, 'A', 1)
+			, (195, 52, 'UCE', 1)
+			, (199, 53, 'A', 1), (200, 53, 'A', 2), (201, 53, 'T', 1), (202, 53, 'UE', 1)
+
+
 	) 
 	AS Source ([PersonId], [TitleId], [PersonRoleId], [PersonOrder]) 
 	ON Target.[PersonId] = Source.[PersonId] AND Target.[TitleId] = Source.[TitleId] AND Target.[PersonRoleId] = Source.[PersonRoleId]

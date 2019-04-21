@@ -25,6 +25,9 @@ AS
 			, (4, 44, N'Выпуск 41')
 			, (12, 46, NULL)
 			, (13, 48, NULL)
+			, (3, 49, NULL)
+			, (8, 50, NULL)
+			, (3, 52, NULL)
 	) 
 	AS Source (
 		[TagId], 

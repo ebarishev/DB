@@ -32,6 +32,10 @@ AS
 			, (3, 57, NULL)
 			, (3, 58, NULL)
 			, (3, 59, NULL)
+			, (3, 68, NULL)
+			, (14, 69, NULL)
+			, (10, 72, NULL)
+			, (1, 76, NULL)
 	) 
 	AS Source (
 		[TagId], 

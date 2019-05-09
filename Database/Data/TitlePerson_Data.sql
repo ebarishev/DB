@@ -114,8 +114,19 @@ AS
 			, (183, 107, 'A', 1)
 			, (203, 108, 'A', 1)
 			, (313, 109, 'A', 1), (314, 109, 'T', 1), (315, 109, 'T', 2)
-
-
+			, (316, 110, 'A', 1)
+			, (317, 111, 'A', 1)
+			, (316, 112, 'A', 1)
+			, (18, 113, 'A', 1)
+			, (177, 114, 'A', 1), (203, 114, 'T', 1)
+			, (318, 115, 'A', 1)
+			, (119, 116, 'A', 1)
+			, (319, 117, 'A', 1)
+			, (19, 118, 'A', 1)
+			, (19, 119, 'A', 1)
+			, (20, 120, 'A', 1), (21, 120, 'A', 2)
+			, (22, 121, 'A', 1), (23, 121, 'A', 2)
+			, (22, 122, 'A', 1), (23, 122, 'A', 2)
 	) 
 	AS Source ([PersonId], [TitleId], [PersonRoleId], [PersonOrder]) 
 	ON Target.[PersonId] = Source.[PersonId] AND Target.[TitleId] = Source.[TitleId] AND Target.[PersonRoleId] = Source.[PersonRoleId]

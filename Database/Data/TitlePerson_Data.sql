@@ -143,6 +143,7 @@ AS
 			, (203, 136, 'A', 1)
 			, (343, 137, 'A', 1)
 			, (344, 138, 'A', 1)
+			, (345, 139, 'A', 1), (346, 139, 'A', 2), (347, 139, 'R', 1)
 
 	) 
 	AS Source ([PersonId], [TitleId], [PersonRoleId], [PersonOrder]) 

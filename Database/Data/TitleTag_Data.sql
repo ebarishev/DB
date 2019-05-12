@@ -52,6 +52,8 @@ AS
 			, (1, 119, NULL)
 			, (17, 132, NULL)
 			, (2, 138, NULL)
+			, (18, 140, NULL)
+			, (19, 141, NULL)
 	) 
 	AS Source (
 		[TagId], 

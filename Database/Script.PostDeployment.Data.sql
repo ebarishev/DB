@@ -22,6 +22,8 @@ EXEC [dbo].[Title_Data]
 
 EXEC [dbo].[TitlePerson_Data]
 
+EXEC [dbo].[TitlePublisher_Data]
+
 EXEC [dbo].[Tag_Data]
 
 EXEC [dbo].[TitleTag_Data]

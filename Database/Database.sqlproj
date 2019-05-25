@@ -68,6 +68,7 @@
     <Folder Include="Tables\TitleTag" />
     <Folder Include="Tables\Tag" />
     <Folder Include="Tables\PersonRole" />
+    <Folder Include="Tables\TitlePublisher" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Person\Person.sql" />
@@ -101,6 +102,11 @@
     <Build Include="Tables\TitlePerson\FK_TitlePerson_PersonRole.sql" />
     <Build Include="Tables\PersonRole\PK_PersonRole.sql" />
     <Build Include="Tables\PersonRole\PersonRole.sql" />
+    <Build Include="Tables\TitlePublisher\FK_TitlePublisher_Publisher.sql" />
+    <Build Include="Tables\TitlePublisher\FK_TitlePublisher_Title.sql" />
+    <Build Include="Tables\TitlePublisher\PK_TitlePublisher.sql" />
+    <Build Include="Tables\TitlePublisher\TitlePublisher.sql" />
+    <Build Include="Data\TitlePublisher_Data.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Script.PostDeployment.Data.sql" />

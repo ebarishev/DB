@@ -3,7 +3,7 @@
 	[Id] INT NOT NULL IDENTITY(1000000, 1), 
 	[Udk] NVARCHAR(50),
 	[Bbk] NVARCHAR(50),
-	[Isbn] CHAR(17),
+	[Isbn] CHAR(18),
 	[Title] NVARCHAR(500) NOT NULL,
 	[EditionNo] SMALLINT,
 	[EditionTypeId] CHAR(5),

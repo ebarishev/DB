@@ -35,7 +35,21 @@ AS
 			, (5, 229, 1, '5-02-013916-5')
 			, (2, 230, 1, NULL)
 			, (2, 231, 1, NULL)
-
+			, (5, 232, 1, '5-02-013917-3')
+			, (5, 233, 1, NULL)
+			, (5, 234, 1, NULL)
+			, (5, 235, 1, NULL)
+			, (5, 236, 1, '5-02-013913-0')
+			, (5, 237, 1, NULL)
+			, (18, 238, 1, NULL)
+			, (5, 239, 1, NULL)
+			, (5, 240, 1, NULL)
+			, (2, 241, 1, NULL)
+			, (5, 242, 1, NULL)
+			, (5, 243, 1, NULL)
+			, (1, 244, 1, '5-900916-78-2')
+			, (2, 245, 1, '5-03-001658-9')
+			
 	) 
 	AS Source ([PublisherId], [TitleId], [PublisherOrder], [Isbn]) 
 	ON Target.[PublisherId] = Source.[PublisherId] AND Target.[TitleId] = Source.[TitleId] 

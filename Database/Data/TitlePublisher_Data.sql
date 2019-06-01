@@ -34,6 +34,7 @@ AS
 			, (5, 228, 1, NULL)
 			, (5, 229, 1, '5-02-013916-5')
 			, (2, 230, 1, NULL)
+			, (2, 231, 1, NULL)
 
 	) 
 	AS Source ([PublisherId], [TitleId], [PublisherOrder], [Isbn]) 

@@ -60,6 +60,9 @@ AS
 			, (5, 254, 1, NULL)
 			, (5, 255, 1, NULL)
 			, (5, 256, 1, NULL)
+			, (2, 257, 1, NULL)
+			, (5, 258, 1, NULL)
+			, (5, 259, 1, '5-9221-0488-8')
 			
 	) 
 	AS Source ([PublisherId], [TitleId], [PublisherOrder], [Isbn]) 

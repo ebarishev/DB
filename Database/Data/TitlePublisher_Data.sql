@@ -63,6 +63,12 @@ AS
 			, (2, 257, 1, NULL)
 			, (5, 258, 1, NULL)
 			, (5, 259, 1, '5-9221-0488-8')
+			, (2, 260, 1, NULL)
+			, (5, 261, 1, NULL)
+			, (18, 262, 1, NULL)
+			, (2, 263, 1, NULL)
+			, (30, 264, 1, NULL)
+			, (1, 265, 1, '978-5-4439-1326-1')
 			
 	) 
 	AS Source ([PublisherId], [TitleId], [PublisherOrder], [Isbn]) 

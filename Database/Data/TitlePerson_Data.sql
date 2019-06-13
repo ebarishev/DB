@@ -288,7 +288,11 @@ AS
 			, (572, 279, 'A', 1), (403, 279, 'A', 2)
 			, (573, 280, 'A', 1), (574, 280, 'T', 1)
 			, (575, 281, 'A', 1)
-
+			, (576, 282, 'A', 1)
+			, (577, 283, 'A', 1), (578, 283, 'A', 2)
+			, (579, 284, 'A', 1), (580, 284, 'T', 1)
+			, (203, 285, 'A', 1)
+			, (581, 286, 'A', 1), (582, 286, 'A', 2), (583, 286, 'A', 3)
 	) 
 	AS Source ([PersonId], [TitleId], [PersonRoleId], [PersonOrder]) 
 	ON Target.[PersonId] = Source.[PersonId] AND Target.[TitleId] = Source.[TitleId] AND Target.[PersonRoleId] = Source.[PersonRoleId]

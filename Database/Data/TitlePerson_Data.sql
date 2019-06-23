@@ -354,6 +354,14 @@ AS
 			, (455, 337, 'A', 1), (665, 337, 'A', 2)
 			, (666, 338, 'A', 1), (667, 338, 'T', 1), (668, 338, 'TE', 1)
 
+			, (51, 339, 'A', 1), (203, 339, 'R', 1)
+			, (51, 340, 'A', 1), (203, 340, 'R', 1)
+
+			, (289, 341, 'A', 1), (669, 341, 'T', 1), (670, 341, 'TE', 1)
+			, (289, 342, 'A', 1), (669, 342, 'T', 1), (670, 342, 'TE', 1), (671, 342, 'TE', 1)
+
+			, (619, 343, 'A', 1), (102, 343, 'A', 2), (672, 343, 'R', 1), (673, 343, 'R', 2)
+
 	) 
 	AS Source ([PersonId], [TitleId], [PersonRoleId], [PersonOrder]) 
 	ON Target.[PersonId] = Source.[PersonId] AND Target.[TitleId] = Source.[TitleId] AND Target.[PersonRoleId] = Source.[PersonRoleId]

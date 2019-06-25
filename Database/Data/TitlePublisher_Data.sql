@@ -147,7 +147,14 @@ AS
 			, (2, 341, 1, NULL)
 			, (2, 342, 1, NULL)
 			, (5, 343, 1, NULL)
-
+			, (5, 344, 1, NULL)
+			, (5, 345, 1, NULL)
+			, (16, 346, 1, '5-93972-097-8')
+			, (26, 347, 1, NULL)
+			, (5, 348, 1, NULL)
+			, (5, 349, 1, NULL)
+			, (2, 350, 1, NULL)
+			, (5, 351, 1, NULL)
 			
 	) 
 	AS Source ([PublisherId], [TitleId], [PublisherOrder], [Isbn]) 

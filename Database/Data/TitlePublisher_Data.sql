@@ -155,6 +155,10 @@ AS
 			, (5, 349, 1, NULL)
 			, (2, 350, 1, NULL)
 			, (5, 351, 1, NULL)
+			, (3, 352, 1, NULL)
+			, (3, 353, 1, NULL)
+			, (7, 354, 1, '5-211-015745-6')
+			, (2, 355, 1, '5-03-003692-X')
 			
 	) 
 	AS Source ([PublisherId], [TitleId], [PublisherOrder], [Isbn]) 

@@ -159,6 +159,12 @@ AS
 			, (3, 353, 1, NULL)
 			, (7, 354, 1, '5-211-015745-6')
 			, (2, 355, 1, '5-03-003692-X')
+			, (4, 356, 1, NULL)
+			, (5, 357, 1, NULL)
+			, (38, 358, 1, NULL)
+			, (5, 359, 1, NULL)
+			, (2, 360, 1, NULL)
+			, (5, 361, 1, NULL)
 			
 	) 
 	AS Source ([PublisherId], [TitleId], [PublisherOrder], [Isbn]) 

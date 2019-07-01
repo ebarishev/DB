@@ -177,6 +177,8 @@ AS
 			, (1, 370, 1, '978-5-4439-1036-9')
 			, (2, 371, 1, NULL)
 			, (1, 372, 1, '978-5-4439-0263-0')
+			, (2, 373, 1, NULL)
+			, (2, 374, 1, NULL)
 			
 	) 
 	AS Source ([PublisherId], [TitleId], [PublisherOrder], [Isbn]) 

@@ -193,6 +193,13 @@ AS
 			, (2, 386, 1, NULL)
 			, (5, 387, 1, NULL)
 			, (5, 388, 1, NULL)
+			, (5, 389, 1, NULL)
+			, (2, 390, 1, NULL)
+			, (2, 391, 1, NULL)
+			, (2, 392, 1, NULL)
+			, (5, 393, 1, NULL)
+			, (5, 394, 1, NULL)
+
 			
 	) 
 	AS Source ([PublisherId], [TitleId], [PublisherOrder], [Isbn]) 

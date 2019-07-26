@@ -220,9 +220,11 @@ AS
 			, (18, 413, 1, NULL)
 			, (5, 414, 1, NULL)
 			, (3, 415, 1, NULL)
-
-
-			
+			, (5, 416, 1, NULL)
+			, (5, 417, 1, NULL)
+			, (2, 418, 1, NULL)
+			, (5, 419, 1, NULL)
+		
 	) 
 	AS Source ([PublisherId], [TitleId], [PublisherOrder], [Isbn]) 
 	ON Target.[PublisherId] = Source.[PublisherId] AND Target.[TitleId] = Source.[TitleId] 

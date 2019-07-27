@@ -224,6 +224,9 @@ AS
 			, (5, 417, 1, NULL)
 			, (2, 418, 1, NULL)
 			, (5, 419, 1, NULL)
+			, (23, 420, 1, NULL)
+			, (2, 421, 1, NULL)
+			, (26, 422, 1, NULL)
 		
 	) 
 	AS Source ([PublisherId], [TitleId], [PublisherOrder], [Isbn]) 

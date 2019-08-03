@@ -227,6 +227,12 @@ AS
 			, (23, 420, 1, NULL)
 			, (2, 421, 1, NULL)
 			, (26, 422, 1, NULL)
+			, (10, 423, 1, '978-5-382-00161-6')
+			, (5, 424, 1, NULL)
+			, (2, 425, 1, NULL)
+			, (5, 426, 1, NULL)
+			, (5, 427, 1, NULL)
+			, (2, 428, 1, NULL)
 		
 	) 
 	AS Source ([PublisherId], [TitleId], [PublisherOrder], [Isbn]) 

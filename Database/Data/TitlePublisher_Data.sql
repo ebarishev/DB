@@ -233,6 +233,9 @@ AS
 			, (5, 426, 1, NULL)
 			, (5, 427, 1, NULL)
 			, (2, 428, 1, NULL)
+			, (18, 429, 1, NULL)
+			, (5, 430, 1, NULL)
+			, (2, 431, 1, NULL)
 		
 	) 
 	AS Source ([PublisherId], [TitleId], [PublisherOrder], [Isbn]) 

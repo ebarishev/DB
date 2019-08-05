@@ -246,6 +246,8 @@ AS
 			, (2, 439, 1, NULL)
 			, (5, 440, 1, NULL)
 			, (41, 441, 1, '975-5-9774-0730-4')
+			, (42, 442, 1, '5-9221-0400-4')
+			, (5, 443, 1, NULL)
 		
 	) 
 	AS Source ([PublisherId], [TitleId], [PublisherOrder], [Isbn]) 

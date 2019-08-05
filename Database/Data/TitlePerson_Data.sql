@@ -463,6 +463,8 @@ AS
 			, (176, 439, 'UE', 1), (285, 439, 'UE', 2), (101, 439, 'WP', 1)
 			, (836, 440, 'A', 1), (837, 440, 'A', 2), (838, 440, 'A', 3)
 			, (839, 441, 'A', 1)
+			, (840, 442, 'A', 1), (145, 442, 'TE', 1)
+			, (841, 443, 'A', 1), (842, 443, 'T', 1), (717, 443, 'T', 2), (109, 443, 'TE', 1)
 	) 
 	AS Source ([PersonId], [TitleId], [PersonRoleId], [PersonOrder]) 
 	ON Target.[PersonId] = Source.[PersonId] AND Target.[TitleId] = Source.[TitleId] AND Target.[PersonRoleId] = Source.[PersonRoleId]

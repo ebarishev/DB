@@ -468,6 +468,15 @@ AS
 			, (455, 444, 'UE', 1)
 			, (843, 445, 'A', 1), (844, 445, 'A', 2), (845, 445, 'WP', 1)
 				, (695, 445, 'T', 1), (846, 445, 'T', 2), (695, 445, 'WN', 1)
+			, (54, 446, 'A', 1), (55, 446, 'WD', 1)
+			, (56, 447, 'C', 1), (57, 446, 'C', 2), (58, 446, 'C', 3)
+			, (59, 448, 'A', 1)
+			, (59, 449, 'A', 1)
+			, (847, 450, 'A', 1), (213, 450, 'A', 2), (214, 450, 'A', 3), (792, 450, 'UE', 1)
+			, (848, 451, 'A', 1)
+			, (529, 452, 'A', 1), (849, 452, 'R', 1)
+			, (850, 453, 'A', 1), (851, 453, 'A', 2)
+
 	) 
 	AS Source ([PersonId], [TitleId], [PersonRoleId], [PersonOrder]) 
 	ON Target.[PersonId] = Source.[PersonId] AND Target.[TitleId] = Source.[TitleId] AND Target.[PersonRoleId] = Source.[PersonRoleId]

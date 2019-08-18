@@ -291,16 +291,29 @@ AS
 			, (1, 482, 1, '978-5-4439-1137-3')
 			, (24, 483, 1, '5-89176-255-2')
 			, (42, 484, 1, '5-9221-0595-7')
-
-
+			, (2, 485, 1, '')
+			, (5, 486, 1, '5-02-013991-2')
+			, (2, 487, 1, '')
+			, (2, 488, 1, '')
+			, (7, 489, 1, '5-211-00959-2')
+			, (7, 490, 1, '')
+			, (13, 491, 1, '978-5-88688-091-5')
+			, (1, 492, 1, '978-5-4439-0241-8')
+			, (1, 493, 1, '5-94057-245-6')
+			, (42, 494, 1, '5-9221-0442-X')
+			, (45, 495, 1, '978-5-482-01216-1'), (45, 495, 2, '5-482-01216-6')
+			, (46, 496, 1, '978-5-9710-1366-2')
+			, (46, 497, 1, '978-5-9710-2448-4')
+			, (46, 498, 1, '978-5-9710-1250-4')
+			, (5, 499, 1, '5-02-014414-2'), (5, 499, 2, '5-02-013723-5')
+			, (1, 500, 1, '978-5-94057-635-8')
 
 	) 
 	AS Source ([PublisherId], [TitleId], [PublisherOrder], [Isbn]) 
-	ON Target.[PublisherId] = Source.[PublisherId] AND Target.[TitleId] = Source.[TitleId] 
+	ON Target.[PublisherId] = Source.[PublisherId] AND Target.[TitleId] = Source.[TitleId] AND Target.[Isbn] = Source.[Isbn]
 	WHEN MATCHED THEN 
 		UPDATE SET 
-			  [PublisherOrder] = Source.[PublisherOrder], 
-			  [Isbn] = Source.[Isbn]
+			  [PublisherOrder] = Source.[PublisherOrder]
 	WHEN NOT MATCHED BY TARGET THEN 
 		INSERT ([PublisherId], [TitleId], [PublisherOrder], [Isbn]) 
 		VALUES (Source.[PublisherId], Source.[TitleId], Source.[PublisherOrder], Source.[Isbn]) 

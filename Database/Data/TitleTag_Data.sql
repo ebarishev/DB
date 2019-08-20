@@ -169,6 +169,8 @@ AS
 			, (48, 496, NULL)
 			, (48, 497, NULL)
 			, (48, 498, NULL)
+			, (8, 506, NULL)
+			, (9, 506, NULL)
 
 	) 
 	AS Source (

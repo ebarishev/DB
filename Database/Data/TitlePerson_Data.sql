@@ -535,6 +535,9 @@ AS
 			, (310, 506, 'A', 1), (925, 506, 'R', 1)
 			, (466, 507, 'A', 1)
 
+			, (927, 508, 'A', 1), (928, 508, 'PA', 2), (929, 508, 'T', 1)
+			, (930, 509, 'A', 1), (931, 509, 'PA', 2), (929, 509, 'T', 1)
+
 	) 
 	AS Source ([PersonId], [TitleId], [PersonRoleId], [PersonOrder]) 
 	ON Target.[PersonId] = Source.[PersonId] AND Target.[TitleId] = Source.[TitleId] AND Target.[PersonRoleId] = Source.[PersonRoleId]

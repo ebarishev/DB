@@ -332,6 +332,10 @@ AS
 			, (2, 523, 1, '', NULL)
 			, (5, 524, 1, '', NULL)
 			, (5, 525, 1, '', NULL)
+			, (2, 526, 1, '', NULL)
+			, (2, 527, 1, '', NULL)
+			, (2, 528, 1, '', NULL)
+			, (2, 529, 1, '', NULL)
 
 	) 
 	AS Source ([PublisherId], [TitleId], [PublisherOrder], [Isbn], [Remarks]) 

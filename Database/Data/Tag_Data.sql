@@ -55,6 +55,7 @@ AS
 		, (48, N'Классический учебник МГУ', N'Книжная серия')
 		, (49, N'Образовательная манга', N'Книжная серия')
 		, (50, N'Encyclopedia of mathematics and its applications', N'Книжная серия Gian-Carlo Rota Editor')
+		, (51, N'Mathematical surveys', N'Книжная серия')
 
 
 

@@ -56,6 +56,7 @@ AS
 		, (49, N'Образовательная манга', N'Книжная серия')
 		, (50, N'Encyclopedia of mathematics and its applications', N'Книжная серия Gian-Carlo Rota Editor')
 		, (51, N'Mathematical surveys', N'Книжная серия')
+		, (52, N'Проблемы науки и технического прогресса', N'Книжная серия')
 
 
 

@@ -341,7 +341,10 @@ AS
 			, (2, 532, 1, '', NULL)
 			, (2, 533, 1, '', NULL)
 			, (2, 534, 1, '', NULL)
-
+			, (2, 535, 1, '', NULL)
+			, (5, 536, 1, '', NULL)
+			, (5, 537, 1, '', NULL)
+			, (5, 538, 1, '978-5-94057-522-1', NULL)
 	) 
 	AS Source ([PublisherId], [TitleId], [PublisherOrder], [Isbn], [Remarks]) 
 	ON Target.[PublisherId] = Source.[PublisherId] AND Target.[TitleId] = Source.[TitleId] AND Target.[Isbn] = Source.[Isbn]

@@ -345,6 +345,21 @@ AS
 			, (5, 536, 1, '', NULL)
 			, (5, 537, 1, '', NULL)
 			, (5, 538, 1, '978-5-94057-522-1', NULL)
+			, (1, 539, 1, '978-5-4439-1370-4', NULL)
+			, (1, 540, 1, '978-5-4439-0922-6', NULL)
+			, (1, 541, 1, '5-94057-058-5', NULL)
+			, (1, 542, 1, '5-94057-005-4', NULL)
+			, (1, 543, 1, '978-5-4439-0220-3', NULL)
+			, (5, 544, 1, '5-02-014607-2', NULL)
+			, (2, 545, 1, '', NULL)
+			, (5, 546, 1, '5-02-024606-9', NULL)
+			, (1, 547, 1, '978-5-4439-1394-0', NULL)
+			, (2, 548, 1, '', NULL)
+			, (2, 549, 1, '', NULL)
+			, (1, 550, 1, '5-88688-086-0', NULL)
+			, (1, 551, 1, '5-88688-080-1', NULL)
+
+
 	) 
 	AS Source ([PublisherId], [TitleId], [PublisherOrder], [Isbn], [Remarks]) 
 	ON Target.[PublisherId] = Source.[PublisherId] AND Target.[TitleId] = Source.[TitleId] AND Target.[Isbn] = Source.[Isbn]

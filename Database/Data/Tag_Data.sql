@@ -63,7 +63,7 @@ AS
 		, (56, N'Lecture notes in mathematics', N'Книжная серия')
 		, (57, N'Advanced studies in pure mathematics', N'Книжная серия')
 		, (58, N'Классики математики', N'Книжная серия')
-
+		, (59, N'Школьная библиотека', N'Книжная серия')
 
 
 	) 

@@ -199,6 +199,7 @@ AS
 			, (28, 574, NULL)
 			, (29, 576, NULL)
 			, (12, 590, NULL)
+			, (60, 608, NULL)
 	) 
 	AS Source (
 		[TagId], 

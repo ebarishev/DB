@@ -679,6 +679,7 @@ AS
 			, (412, 646, 'A', 1), (470, 646, 'T', 1)
 
 			, (1107, 647, 'A', 1), (32, 647, 'T', 1), (121, 647, 'TE', 1)
+			, (1108, 648, 'A', 1)
 
 	) 
 	AS Source ([PersonId], [TitleId], [PersonRoleId], [PersonOrder]) 

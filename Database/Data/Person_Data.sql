@@ -1084,6 +1084,7 @@ AS
 		, (1105, N'Г.', N'Ф.', N'Лаптев')
 		, (1106, N'Э.', NULL, N'Фрид')
 		, (1107, N'Джеймс', NULL, N'Хамфрис')
+		, (1108, N'Б.', N'А.', N'Кушнер')
 	) 
 	AS Source ([Id], [FirstName], [MiddleName], [LastName]) 
 	ON Target.[Id] = Source.[Id] 

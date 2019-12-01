@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[PersonRole]
 (
-	[Id] CHAR(5) NOT NULL,
-	[Name] NVARCHAR(50) NOT NULL
+	[Id] CHAR(10) NOT NULL,
+	[Name] NVARCHAR(100) NOT NULL
 )

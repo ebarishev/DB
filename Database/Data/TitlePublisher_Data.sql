@@ -506,6 +506,8 @@ AS
 			, (18, 699, 1, '', NULL)
 			, (18, 700, 1, '', NULL)
 
+			, (2, 701, 1, '', NULL)
+			, (2, 702, 1, '5-03-001792-5', N'русск.'), (2, 702, 2, '0-521-35662-8', N'англ.')
 
 	) 
 	AS Source ([PublisherId], [TitleId], [PublisherOrder], [Isbn], [Remarks]) 

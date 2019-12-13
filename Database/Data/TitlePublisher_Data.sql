@@ -513,6 +513,7 @@ AS
 			, (2, 705, 1, '', NULL)
 			, (5, 706, 1, '', NULL)
 			, (5, 707, 1, '', NULL)
+			, (7, 708, 1, '5-211-00083-8', NULL)
 
 	) 
 	AS Source ([PublisherId], [TitleId], [PublisherOrder], [Isbn], [Remarks]) 

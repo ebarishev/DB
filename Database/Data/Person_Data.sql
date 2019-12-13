@@ -1190,6 +1190,7 @@ AS
 		, (1484, N'Ф.', N'Л.', N'Зак')
 		, (1485, N'Х.', NULL, N'Басс')
 		, (1486, N'Кацуми', NULL, N'Номидзу')
+		, (1487, N'В.', N'П.', N'Маслов')
 
 	) 
 	AS Source ([Id], [FirstName], [MiddleName], [LastName]) 

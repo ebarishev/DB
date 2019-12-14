@@ -516,6 +516,10 @@ AS
 			, (7, 708, 1, '5-211-00083-8', NULL)
 			, (6, 709, 1, '5-354-00256-7', NULL)
 
+			, (5, 710, 1, '5-02-014426-6', N'Том 1'),  (5, 710, 2, '5-02-014335-9', NULL)
+			, (5, 711, 1, '5-02-014427-4', N'Том 2'),  (5, 711, 2, '5-02-014335-9', NULL)
+
+
 	) 
 	AS Source ([PublisherId], [TitleId], [PublisherOrder], [Isbn], [Remarks]) 
 	ON Target.[PublisherId] = Source.[PublisherId] AND Target.[TitleId] = Source.[TitleId] AND Target.[Isbn] = Source.[Isbn]

@@ -88,10 +88,10 @@
     <Build Include="Tables\EditionType\EditionType.sql" />
     <Build Include="Tables\Title\FK_EditionType.sql" />
     <Build Include="Views\VI_TitleAuthor.sql" />
-    <Build Include="Data\EditionType_Data.sql" />
-    <Build Include="Data\Person_Data.sql" />
-    <Build Include="Data\Tag_Data.sql" />
-    <Build Include="Data\TitleTag_Data.sql" />
+    <Build Include="Data\EditionType.Data.sql" />
+    <Build Include="Data\Person.Data.sql" />
+    <Build Include="Data\Tag.Data.sql" />
+    <Build Include="Data\TitleTag.Data.sql" />
     <Build Include="Tables\TitleTag\FK_TitleTag_Tag.sql" />
     <Build Include="Tables\TitleTag\FK_TitleTag_Title.sql" />
     <Build Include="Tables\TitleTag\PK_TitleTag.sql" />
@@ -99,7 +99,7 @@
     <Build Include="Tables\Tag\Tag.sql" />
     <Build Include="Tables\Tag\PK_Tag.sql" />
     <Build Include="Views\VI_TitleTag.sql" />
-    <Build Include="Data\PersonRole_Data.sql" />
+    <Build Include="Data\PersonRole.Data.sql" />
     <Build Include="Tables\TitlePerson\FK_TitlePerson_PersonRole.sql" />
     <Build Include="Tables\PersonRole\PK_PersonRole.sql" />
     <Build Include="Tables\PersonRole\PersonRole.sql" />
@@ -107,14 +107,14 @@
     <Build Include="Tables\TitlePublisher\FK_TitlePublisher_Title.sql" />
     <Build Include="Tables\TitlePublisher\PK_TitlePublisher.sql" />
     <Build Include="Tables\TitlePublisher\TitlePublisher.sql" />
-    <Build Include="Data\TitlePublisher_Data.sql" />
+    <Build Include="Data\TitlePublisher.Data.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Script.PostDeployment.Data.sql" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Data\Publisher_Data.sql" />
-    <Build Include="Data\Title_Data.sql" />
-    <Build Include="Data\TitlePerson_Data.sql" />
+    <Build Include="Data\Publisher.Data.sql" />
+    <Build Include="Data\Title.Data.sql" />
+    <Build Include="Data\TitlePerson.Data.sql" />
   </ItemGroup>
 </Project>

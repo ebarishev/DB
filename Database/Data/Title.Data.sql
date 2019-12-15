@@ -1,5 +1,7 @@
 ﻿CREATE PROCEDURE [dbo].[Title_Data]
 AS
+	SET NOCOUNT ON
+
 	SET IDENTITY_INSERT [dbo].[Title] ON
 
 	MERGE INTO [dbo].[Title] AS Target 
@@ -783,4 +785,4 @@ AS
 
 	SET IDENTITY_INSERT [dbo].[Title] OFF
 
-RETURN 0
+	RETURN @@ROWCOUNT

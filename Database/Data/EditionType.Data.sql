@@ -1,5 +1,7 @@
 ﻿CREATE PROCEDURE [dbo].[EditionType_Data]
 AS
+	SET NOCOUNT ON
+
 	MERGE INTO [dbo].[EditionType] AS Target 
 	USING (VALUES 
 		  ('S', N'стереотипное')
@@ -22,4 +24,4 @@ AS
 	WHEN NOT MATCHED BY SOURCE THEN 
 		DELETE;
 
-RETURN 0
+	RETURN @@ROWCOUNT

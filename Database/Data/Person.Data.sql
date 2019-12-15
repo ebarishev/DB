@@ -1,5 +1,7 @@
 ﻿CREATE PROCEDURE [dbo].[Person_Data]
 AS
+	SET NOCOUNT ON
+
 	SET IDENTITY_INSERT [dbo].[Person] ON
 
 	MERGE INTO [dbo].[Person] AS Target 
@@ -1212,7 +1214,7 @@ AS
 
 	SET IDENTITY_INSERT [dbo].[Person] OFF
 
-RETURN 0
+	RETURN @@ROWCOUNT
 
 
 

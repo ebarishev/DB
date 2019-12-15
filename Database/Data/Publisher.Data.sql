@@ -1,5 +1,7 @@
 ﻿CREATE PROCEDURE [dbo].[Publisher_Data]
 AS
+	SET NOCOUNT ON
+
 	SET IDENTITY_INSERT [dbo].[Publisher] ON
 	
 	MERGE INTO [dbo].[Publisher] AS Target
@@ -55,8 +57,6 @@ AS
 		, (49, N'Интеллект', N'Издательский Дом "Интеллект"', N'RUS', N'Долгопрудный')
 
 
-
-
 	) 
 	AS Source ([Id], [Name], [FullName], [Country], [City]) 
 	ON Target.[Id] = Source.[Id] 
@@ -74,4 +74,4 @@ AS
 
 	SET IDENTITY_INSERT [dbo].[Publisher] OFF
 
-RETURN 0
+	RETURN @@ROWCOUNT

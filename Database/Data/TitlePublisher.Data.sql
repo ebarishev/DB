@@ -1,5 +1,7 @@
 ﻿CREATE PROCEDURE [dbo].[TitlePublisher_Data]
 AS
+	SET NOCOUNT ON
+
 	MERGE INTO [dbo].[TitlePublisher] AS Target 
 	USING (
 		VALUES
@@ -533,4 +535,4 @@ AS
 	WHEN NOT MATCHED BY SOURCE THEN 
 		DELETE;
 
-RETURN 0
+	RETURN @@ROWCOUNT

@@ -1,5 +1,6 @@
 ﻿CREATE PROCEDURE [dbo].[Tag_Data]
 AS
+	SET NOCOUNT ON
 
 	SET IDENTITY_INSERT [dbo].[Tag] ON
 	
@@ -88,4 +89,4 @@ AS
 
 	SET IDENTITY_INSERT [dbo].[Tag] OFF
 
-RETURN 0
+	RETURN @@ROWCOUNT

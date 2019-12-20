@@ -69,6 +69,7 @@ AS
 		, (61, N'НМУ', N'Независимый московский университет')
 		, (62, N'GTM', N'Graduate Texts in Mathematics')
 		, (63, N'Библиотечная серия', N'Книжная серия')
+		, (64, N'Annals of Mathematics studies', N'Книжная серия')
 
 	) 
 	AS Source (

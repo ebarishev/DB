@@ -70,6 +70,8 @@ AS
 		, (62, N'GTM', N'Graduate Texts in Mathematics')
 		, (63, N'Библиотечная серия', N'Книжная серия')
 		, (64, N'Annals of Mathematics studies', N'Книжная серия')
+		, (65, N'Annals of Mathematics studies', N'Книжная серия')
+		, (65, N'Механико математический факультет', NULL)
 
 	) 
 	AS Source (

@@ -544,6 +544,10 @@ AS
 			, (2, 733, 1, '', NULL)
 			, (2, 734, 1, '', NULL)
 
+			, (16, 735, 1, '5-93972-389-6', NULL)
+			, (16, 736, 1, '5-93972-390-X', NULL)
+			, (16, 737, 1, '5-93972-484-1', NULL)
+
 
 	) 
 	AS Source ([PublisherId], [TitleId], [PublisherOrder], [Isbn], [Remarks]) 

@@ -789,6 +789,16 @@ AS
 
 			, (1549, 753, 'A', 1), (361, 753, 'A', 2), (155, 753, 'A', 3)
 
+			, (470, 754, 'A', 1), (102, 754, 'A', 2), (102, 754, 'D', 1)
+			, (1550, 755, 'A', 1)
+			, (1551, 756, 'EC', 1), (1552, 756, 'EC', 2), (1553, 756, 'Т', 1), (1554, 756, 'USE', 1)
+			, (1555, 757, 'A', 1), (1469, 757, 'A', 2)
+			, (169, 758, 'A', 1)
+
+
+			, (155, 760, 'A', 1)
+
+
 	) 
 	AS Source ([PersonId], [TitleId], [PersonRoleId], [PersonOrder]) 
 	ON Target.[PersonId] = Source.[PersonId] AND Target.[TitleId] = Source.[TitleId] AND Target.[PersonRoleId] = Source.[PersonRoleId]

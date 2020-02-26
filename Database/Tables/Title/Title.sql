@@ -1,8 +1,8 @@
 ﻿CREATE TABLE [dbo].[Title]
 (
 	[Id] INT NOT NULL IDENTITY(1000000, 1), 
-	[Udk] NVARCHAR(50),
-	[Bbk] NVARCHAR(50),
+	[Udk] NVARCHAR(200),
+	[Bbk] NVARCHAR(200),
 	[Isbn] CHAR(50),
 	[Title] NVARCHAR(500) NOT NULL,
 	[EditionNo] SMALLINT,

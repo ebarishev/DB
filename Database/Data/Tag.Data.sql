@@ -5,7 +5,7 @@ AS
 	SET IDENTITY_INSERT [dbo].[Tag] ON
 	
 	MERGE INTO [dbo].[Tag] AS Target
-	USING (VALUES 
+	USING (VALUES
 		  (1, N'Школьные математические кружки.', N'Книжная серия')
 		, (2, N'Мир знаний.', NULL)
 		, (3, N'ММ', NULL)

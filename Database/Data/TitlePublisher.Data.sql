@@ -633,7 +633,10 @@ AS
 			, (2, 822, 1, '', NULL)
 			, (54, 823, 1, '', NULL)
 			, (1, 824, 1, '978-5-94057-894-9', NULL)
-
+			, (5, 825, 1, '', NULL)
+			, (5, 826, 1, '', NULL)
+			, (5, 827, 1, '', NULL)
+			, (59, 828, 1, '5-89492-014-0', NULL), (1, 828, 1, '5-94057-230-8', NULL)
 
 	) 
 	AS Source ([PublisherId], [TitleId], [PublisherOrder], [Isbn], [Remarks]) 

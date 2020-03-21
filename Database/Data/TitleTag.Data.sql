@@ -4,8 +4,9 @@ AS
 
 	MERGE INTO [dbo].[TitleTag] AS Target 
 	USING (
-		VALUES 
-			  (1, 1, N'Выпуск 1')
+		VALUES
+			(1, 1, N'Выпуск 11')
+			, (1, 2, N'Выпуск 1')
 			, (2, 7, NULL)
 			, (65, 10, NULL)
 			, (3, 11, NULL)
@@ -288,6 +289,8 @@ AS
 			, (13, 820, NULL)
 			, (66, 823, NULL)
 			, (38, 836, NULL)
+			, (73, 843, N'Volume 48')
+			, (1, 844, N'Выпуск 20')
 
 
 	) 

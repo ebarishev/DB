@@ -655,6 +655,8 @@ AS
 			, (1, 844, 1, '978-5-4439-1465-7', NULL)
 			, (1, 845, 1, '978-5-4439-4045-8', NULL)
 			, (1, 846, 1, '978-5-94057-298-5', NULL)
+			, (2, 847, 1, '', NULL)
+			, (46, 848, 1, '978-5-9710-6387-2', NULL)
 	) 
 	AS Source ([PublisherId], [TitleId], [PublisherOrder], [Isbn], [Remarks]) 
 	ON Target.[PublisherId] = Source.[PublisherId] AND Target.[TitleId] = Source.[TitleId] AND Target.[Isbn] = Source.[Isbn]

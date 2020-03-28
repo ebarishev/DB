@@ -660,6 +660,12 @@ AS
 			, (1, 849, 1, '978-5-4439-2868-5', NULL)
 			, (1, 850, 1, '978-5-4439-2680-3', NULL)
 			, (60, 851, 1, '978-5-7042-2317-7', NULL)
+			, (60, 852, 1, '978-5-9907453-1-5', NULL)
+			, (1, 853, 1, '978-5-4439-1024-6', NULL)
+			, (1, 854, 1, '5-94057-243-X', NULL)
+			, (5, 855, 1, '', NULL)
+			, (13, 856, 1, '5-88688-020-8', NULL)
+			, (5, 857, 1, '5-02-013741-1', NULL)
 	) 
 	AS Source ([PublisherId], [TitleId], [PublisherOrder], [Isbn], [Remarks]) 
 	ON Target.[PublisherId] = Source.[PublisherId] AND Target.[TitleId] = Source.[TitleId] AND Target.[Isbn] = Source.[Isbn]

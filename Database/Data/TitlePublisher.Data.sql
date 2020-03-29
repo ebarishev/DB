@@ -666,6 +666,9 @@ AS
 			, (5, 855, 1, '', NULL)
 			, (13, 856, 1, '5-88688-020-8', NULL)
 			, (5, 857, 1, '5-02-013741-1', NULL)
+			, (5, 858, 1, '', NULL)
+			, (5, 859, 1, '', NULL)
+			, (5, 860, 1, '', NULL)
 	) 
 	AS Source ([PublisherId], [TitleId], [PublisherOrder], [Isbn], [Remarks]) 
 	ON Target.[PublisherId] = Source.[PublisherId] AND Target.[TitleId] = Source.[TitleId] AND Target.[Isbn] = Source.[Isbn]

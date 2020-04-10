@@ -676,10 +676,11 @@ AS
 			, (42, 865, 1, '5-9221-0618-X', NULL)
 			, (2, 866, 1, '', NULL)
 			, (2, 867, 1, '', NULL)
-			, (16, 868, '5-93972-068-4', NULL)
+			, (16, 868, 1, '5-93972-068-4', NULL)
 			, (5, 869, 1, '', NULL)
 			, (18, 870, 1, '', NULL)
 			, (2, 871, 1, '', NULL)
+			, (61, 872, 1, '5-354-00670-8', NULL)
 	) 
 	AS Source ([PublisherId], [TitleId], [PublisherOrder], [Isbn], [Remarks]) 
 	ON Target.[PublisherId] = Source.[PublisherId] AND Target.[TitleId] = Source.[TitleId] AND Target.[Isbn] = Source.[Isbn]

@@ -682,6 +682,7 @@ AS
 			, (2, 871, 1, '', NULL)
 			, (61, 872, 1, '5-354-00670-8', NULL)
 			, (1, 873, 1, '978-5-4439-0207-4', NULL)
+			, (2, 874, 1, '5-03-001424-1', N'русск.'), (2, 874, 2, '0-387-96426-6', N'англ.')
 	) 
 	AS Source ([PublisherId], [TitleId], [PublisherOrder], [Isbn], [Remarks]) 
 	ON Target.[PublisherId] = Source.[PublisherId] AND Target.[TitleId] = Source.[TitleId] AND Target.[Isbn] = Source.[Isbn]

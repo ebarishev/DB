@@ -687,6 +687,10 @@ AS
 			, (5, 876, '', NULL)
 			, (2, 877, '', NULL)
 			, (5, 878, '', NULL)
+			, (18, 879, '', NULL)
+			, (18, 880, '', NULL)
+			, (2, 881, '', NULL)
+			, (2, 882, '', NULL)
 	) 
 	AS Source ([PublisherId], [TitleId], [PublisherOrder], [Isbn], [Remarks]) 
 	ON Target.[PublisherId] = Source.[PublisherId] AND Target.[TitleId] = Source.[TitleId] AND Target.[Isbn] = Source.[Isbn]

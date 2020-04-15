@@ -1375,6 +1375,10 @@ AS
 		, (1692, N'К.', NULL, N'Фейс')
 		, (1693, N'Л.', N'А.', N'Койфман')
 		, (1694, N'Т.', N'С.', N'Тольская')
+		, (1695, N'Клод', NULL, N'Шевалле')
+
+
+
 	) 
 	AS Source ([Id], [FirstName], [MiddleName], [LastName]) 
 	ON Target.[Id] = Source.[Id] 

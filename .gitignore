@@ -30,3 +30,4 @@ bin/
 DeploymentReport*.txt
 *.jfm
 *.dbmdl
+*.user

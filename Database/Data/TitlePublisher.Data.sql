@@ -699,6 +699,8 @@ AS
 			, (18, 888, '', NULL)
 			, (5, 889, '', NULL)
 			, (2, 890, '5-03-001002-5', N'русск.'), (2, 890, '0-8176-3329-4', N'англ.')
+			, (5, 891, '5-02-013909-2', NULL)
+			, (2, 892, '', NULL)
 	) 
 	AS Source ([PublisherId], [TitleId], [PublisherOrder], [Isbn], [Remarks]) 
 	ON Target.[PublisherId] = Source.[PublisherId] AND Target.[TitleId] = Source.[TitleId] AND Target.[Isbn] = Source.[Isbn]

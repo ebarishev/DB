@@ -705,7 +705,7 @@ AS
 			, (5, 894, '', NULL)
 			, (5, 895, '', NULL)
 			, (5, 896, '', NULL)
-
+			, (2, 897, '5-03-002484-0', N'русск.'), (2, 897, '0-8218-5073-3', N'англ.')
 
 	) 
 	AS Source ([PublisherId], [TitleId], [PublisherOrder], [Isbn], [Remarks]) 

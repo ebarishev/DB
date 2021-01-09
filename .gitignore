@@ -31,3 +31,4 @@ DeploymentReport*.txt
 *.jfm
 *.dbmdl
 *.user
+/.vs/DB/v16/.suo
